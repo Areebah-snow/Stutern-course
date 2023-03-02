@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+   
+nav{
+    background-color: black;
+    color: white;
+
+   display: flex;
+   flex-direction: row;
+   color: white;
+   justify-content: space-between;
+   padding: 70px 180px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+.logo-name{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+nav ul li{
+    padding-inline: 30px;
+    vertical-align: middle;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    
+
+}
+li a:hover{
+    border-bottom: 5px solid white;
+}
+
+.signup{
+    border: none;
+    /* font-size: 30px; */
+    font-weight: 600;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px 30px ;
+}
+
+main{
+    display: flex;
+  flex-direction: row;
+    width: 80%;
+    margin: 100px auto; 
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.about-details{
+    width: 45%;
+}
+.about-details h1{
+  font-size: 2rem;
+  margin-bottom: 30px;
+  letter-spacing: 4px;
+}
+.about-details h1 .burger{
+    color: #f5b60a;
+}
+.about-details p{
+ word-spacing: 7px;
+ line-height: 30px;
+ margin-bottom: 30px;
+}
+
+.about-image img{
+    width: 600px;
+    border-radius: 10px;
+   
+}
+
+.more{
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px 30px;
+    font-weight: 700;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    
+}
